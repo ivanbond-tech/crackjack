@@ -1,5 +1,18 @@
 # macOS specific
+*.DS_Store
+
+# VSCode specific
+*.vscode
 
 # Python specific
+*.ipynb_checkpoints
 *__pycache__*
-*env*
+
+# Python Virtual Environments
+env
+venv
+
+# Project specific
+
+# API Keys
+*.env
